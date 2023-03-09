@@ -1,6 +1,6 @@
 # Address-Book
 
-![alt text](https://github.com/GeccoRhiguelNavalta/Calendar/blob/main/addressbook1.png "screenshot")
+![alt text](https://github.com/GeccoRhiguelNavalta/Address-Book/blob/main/addressbook1.png "screenshot")
 
 This is a simple address book app built using vanilla JavaScript, jQuery, HTML, and CSS.
 
