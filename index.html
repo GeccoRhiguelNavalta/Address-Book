@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- this is my take on a tutorial https://codepen.io/sola/pen/GyOReX -->
+
+  <body>
+    <h1>Address Book</h1>
+    <div id="menu">
+      <ul class="menu-list">
+        <li id="js-reveal-list">Reveal Contact List</li>
+        <li id="js-add-new">Add New Contact</li>
+      </ul>
+    </div>
+    <div id="contact-console" class="console">
+      <form id="contact" action="#">
+        <h2>Add New Contact</h2>
+        <div>
+          <label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="add new firstname"
+            />
+          </label>
+          <label>
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="add new surname"
+            />
+          </label>
+          <label>
+            <input
+              type="text"
+              name="number"
+              id="number"
+              placeholder="add new number"
+            />
+          </label>
+          <label>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="add new address"
+            />
+          </label>
+        </div>
+        <div>
+          <button class="button" type="submit" value="Enter">Enter</button>
+        </div>
+      </form>
+    </div>
+    <div id="show-console" class="console">
+      <form id="search" action="#">
+        <h2>Search Contact</h2>
+        <div>
+          <label>
+            <input
+              type="text"
+              name="search-contact"
+              id="search-contact"
+              placeholder="search contact"
+            />
+          </label>
+        </div>
+        <div>
+          <button class="button" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
