@@ -10,6 +10,8 @@ This is a simple address book app built using vanilla JavaScript, jQuery, HTML, 
 
 ### The address book app allows users to:
 
+npm i on root folder and run on live server extension on VS code
+
 Add a new contact to the address book
 Edit an existing contact's information
 Delete a contact from the address book
